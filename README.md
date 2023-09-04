@@ -14,8 +14,12 @@ Regarding the script I use here, I focused on the audio input to the left ear of
 The uploaded file: 
 record - original script 
 is the script I took for this assignment.
-I changed some parameters of the recording and made it print only the data referring to the left ear.
+It controls the acquisition of audio information using the pyaudio library.
+By using the wave library, it is also possible to obtain a registration of the audio.
+In the record_newFreq script, I changed some parameters of the recording and made it print only the data referring to the left ear.
 The output of this code are printed as a txt file:
 interleaved_data
 
-Then I made a script to plot the sound trace recorded over time.
+Then I made a script, plotting_left_ear, to plot the sound trace recorded over time.
+
+The scripts were run on Python 3
