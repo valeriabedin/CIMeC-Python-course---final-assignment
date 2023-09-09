@@ -12,7 +12,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-
+# LP: remember to remove unused importa!
 import scipy
 
 import re
@@ -21,7 +21,7 @@ import re
 
 # In[2]:
 
-
+# LP: you actually rightfullu tead it as csv, so good idea to change the extension!
 left_sound_trace=pd.read_csv("interleaved_data.txt", names=["Left Ear"])
 left_sound_trace
 
@@ -43,7 +43,7 @@ axes.axhline(threshold, color='red', linestyle='--')
 axes.set_xlabel('Time')
 
 fig.show()
-
+fig.savefig("testfig.png")
 
 # In[ ]:
 

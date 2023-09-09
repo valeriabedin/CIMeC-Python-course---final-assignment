@@ -50,6 +50,9 @@ stream.stop_stream()
 stream.close()
 p.terminate()
 
+# LP: txt is a funny format for array data!
+# csv is better, althogh a bit heavy (bot are actually just text files).
+# a good alternative would be a binary format, like npy or npz
 np.savetxt('interleaved_data.txt', interleaved_data)
 
 
